@@ -11,7 +11,7 @@ GAM465 is a course where every week students are tasked to create a game. A sort
 
 Project Board: *no board yet*
 
-Itch.io: *no board yet*
+Itch.io: https://micahthemaniac.itch.io/deep-sea-diving
 
 ---
 
