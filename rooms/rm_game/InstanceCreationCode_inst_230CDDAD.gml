@@ -1,0 +1,1 @@
+text = f_button_exchange_text();
