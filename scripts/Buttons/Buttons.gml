@@ -114,3 +114,23 @@ function f_button_exchange_buy()
 	// Update Button Text
 	text = f_button_exchange_text();
 }
+
+// Show Credits
+function f_show_credits()
+{
+	// Hide GUI
+	instance_deactivate_layer("InstancesGUI");
+	
+	// Show Credits
+	instance_activate_layer("InstancesCredits");
+}
+
+// Hide Credits
+function f_hide_credits()
+{
+	// Show GUI
+	instance_activate_layer("InstancesGUI");
+	
+	// Show Credits
+	instance_deactivate_layer("InstancesCredits");
+}

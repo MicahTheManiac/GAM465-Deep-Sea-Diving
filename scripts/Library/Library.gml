@@ -1,4 +1,4 @@
-#macro ROOM_START rm_game
+#macro ROOM_START rm_title
 #macro GRAVITY_SPEED 0.25
 #macro MOVE_SPEED 4
 

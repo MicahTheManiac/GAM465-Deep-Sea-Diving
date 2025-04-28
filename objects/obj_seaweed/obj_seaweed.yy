@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fish",
+  "%Name":"obj_seaweed",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_fish",
+  "name":"obj_seaweed",
   "overriddenProperties":[],
   "parent":{
     "name":"Gameobjects",
     "path":"folders/Objects/Gameobjects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_pawn_fish",
-    "path":"objects/obj_pawn_fish/obj_pawn_fish.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fish_yellow",
-    "path":"sprites/spr_fish_yellow/spr_fish_yellow.yy",
+    "name":"spr_seaweed",
+    "path":"sprites/spr_seaweed/spr_seaweed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

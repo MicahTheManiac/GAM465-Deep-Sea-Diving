@@ -22,7 +22,7 @@ function f_ai_roam()
 	if (!is_roaming)
 	{
 		roam_x = _x;
-		roam_y = clamp(_y, 170, 2350);
+		roam_y = clamp(_y, 170, room_height - 50);
 		is_roaming = true;
 	}
 	else
