@@ -58,6 +58,8 @@
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"Buttons","path":"scripts/Buttons/Buttons.yy",},},
     {"id":{"name":"Library","path":"scripts/Library/Library.yy",},},
+    {"id":{"name":"snd_pop","path":"sounds/snd_pop/snd_pop.yy",},},
+    {"id":{"name":"snd_splash","path":"sounds/snd_splash/snd_splash.yy",},},
     {"id":{"name":"spr_bubbles","path":"sprites/spr_bubbles/spr_bubbles.yy",},},
     {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},

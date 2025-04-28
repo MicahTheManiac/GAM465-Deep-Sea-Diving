@@ -9,3 +9,4 @@ health_current = 20;
 health_max = 20;
 
 do_entity_collision = false;
+has_done_sound = false;

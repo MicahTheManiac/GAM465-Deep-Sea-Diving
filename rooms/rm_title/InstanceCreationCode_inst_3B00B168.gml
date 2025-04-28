@@ -1,2 +1,2 @@
-text = "PROGRAMMING,\nART, & DESIGN\n\n" +
+text = "PROGRAMMING, ART,\nDESIGN, & SOUND\n\n" +
 	"FONT";

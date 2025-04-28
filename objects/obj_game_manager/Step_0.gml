@@ -20,8 +20,8 @@ if (room == rm_game)
 		// Reset Game
 		if (timer_seconds <= 0)
 		{
-			player.x = xstart;
-			player.y = ystart;
+			player.x = 160;
+			player.y = 96;
 			
 			timer_seconds = timer_seconds_start;
 			layer_destroy_instances("Instances");
@@ -64,13 +64,15 @@ if (room == rm_game)
 	if (mouse_check_button_pressed(mb_left))
 	{
 		// Make Bubbles
-		if (mouse_y > 170) or (room == rm_title)
+		if (mouse_y > 170) or ( (room == rm_title) and (mouse_y > 40) )
 		{
-			instance_create_layer(mouse_x, mouse_y, "InstancesGUI", obj_bubbles);
+			instance_create_layer(mouse_x, mouse_y, "InstancesPlayer", obj_bubbles);
+			var _pitch = choose(1.0, 1.2)
+			audio_play_sound(snd_pop, 1, 0, 0.75, 0, _pitch);
 		}
 		
 		// Attract Fish
-		var _fish = collision_circle(mouse_x, mouse_y, 64, obj_pawn_fish, false, true);
+		var _fish = collision_circle(mouse_x, mouse_y, 96, obj_pawn_fish, false, true);
 		if (_fish)
 		{
 			_fish.roam_x = mouse_x;

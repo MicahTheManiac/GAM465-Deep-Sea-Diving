@@ -20,16 +20,14 @@ else if (!is_on_ground) and (y > 200) and (_key_up)
 }
 
 
-// Death
-if (health_current <= 0) and (!is_dead)
+// Do Splash when Entering Water
+if (y >= 160) and (!has_done_sound)
 {
-	is_dead = true;
-	deaths += 1;
+	var _pitch = choose(0.8, 1.0, 1.2)
+	audio_play_sound(snd_splash, 1, 0, 1, 0.2, _pitch);
+	has_done_sound = true;
 }
-
-if (is_dead)
+else if (y < 160)
 {
-	// Prevent Movement
-	speed_x = 0;
-	speed_y = 0;
+	has_done_sound = false;
 }
